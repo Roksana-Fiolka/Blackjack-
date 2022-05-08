@@ -1,0 +1,35 @@
+h1{
+    color:rgb(0, 0, 0);
+}
+body{
+background-image: url("green.jpg");
+text-align: center;
+}
+
+#message-el, p{
+    color:rgb(240, 238, 236);
+    font-size:25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+    padding: 11px 22px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background-color: #cd94e4;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #fdceeb;
+    margin-bottom: 8px;
+  }
+  
+  button:hover {background-color: #615a5a}
+  
+  button:active {
+    background-color: #42363e;
+    box-shadow: 0 5px #3d8059;
+    transform: translateY(4px);
+  }
